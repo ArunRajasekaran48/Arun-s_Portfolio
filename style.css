@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+  header .logo {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 11px;
+    cursor: pointer;
+  }
+  header .logo:hover{
+    background-color:#fff;
+    color: #000;
+    border-radius:25px;
+    text-decoration: none;
+  }
+  nav {
+    display: flex;
+    gap:1px;
+   
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right:50px;
+    padding: 11px;
+  }
+  nav a:hover {
+    background-color:#fff;
+    color: #000;
+    border-radius:25px;
+  }
+  .container {
+    display: flex;
+    height: 100vh;
+    margin-top: 60px; 
+  }
+  .left-section {
+    background-color: #f2f2f2;
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .right-section {
+    background-color: #000;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  h1 {
+    font-size: 48px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 24px;
+    color: #555;
+    margin: 10px 0;
+  }
+  .social-icons {
+    margin-top: 20px;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+  }
+  .right-section img {
+    width: 141.5%;
+    height:200%;
+  }
+  
